@@ -1,0 +1,210 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url(../images/sky.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+#submit1 {
+    background: #E31B6D;
+    border: 1px solid #E31B6D;
+    color: white;
+    width: 80px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#submit2 {
+    background: #E31B6D;
+    border: 1px solid #E31B6D;
+    color: white;
+    width: 80px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: center;
+}
+
+#submit3 {
+    background: #E31B6D;
+    border: 1px solid #E31B6D;
+    color: white;
+    width: 80px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: center;
+}
+
+#submit1:hover, #submit2:hover, #submit3:hover, #submit4:hover {
+    border: 1px solid #199fc0;
+    background: #199fc0;
+}
+
+#table2 {
+    margin-top: 125px;
+}
+
+#h2 {
+    position: absolute;
+    top: 250px;
+}
+
+#h2-2 {
+    position: absolute;
+    bottom: 175px;
+}
+
+#table3 {
+    margin-top: 125px;
+}
+
+#table4 {
+    margin-top: 185px;
+    margin-left: 300px;
+}
+
+#table5 {
+    margin-top: -360px;
+    margin-left: 500px;
+}
+
+#submit4 {
+    background: #E31B6D;
+    border: 1px solid #E31B6D;
+    color: white;
+    width: 80px;
+    height: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 600px;
+}
+
+#h2-3 {
+    position: absolute;
+    top: 245px;
+    left: 500px;
+}
+
+#uitloggen {
+    text-decoration: none;
+    position: absolute;
+    font-size: 25px;
+    right: 25px;
+    top: 25px;
+    color: white;
+    transition: 0.5s;
+}
+
+#uitloggen:hover {
+    color: grey;
+    transform: scale(1.1);
+}
+
+#inputuser {
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    width: 15%;
+    height: 5%;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
+}
+
+#inputuser:focus {
+    outline: none;
+}
+
+#inputpass {
+    position: absolute;
+    top: 55%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    width: 15%;
+    height: 5%;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
+}
+
+#inputpass:focus {
+    outline: none;
+}
+
+#login {
+    position: absolute;
+    top: 65%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    width: 15%;
+    height: 5%;
+    border-radius: 20px;
+    background-color: #E31B6D;
+    border: 1px solid #E31B6D;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#login:hover {
+    background-color: #1baae3;
+    border: 1px solid #1baae3;
+}
+
+#label1 {
+    position: absolute;
+    top: 32%;
+    right: 52%;
+    transform: translate(50%,-50%);
+}
+
+#label2 {
+    position: absolute;
+    top: 47%;
+    right: 53%;
+    transform: translate(50%,-50%);
+}
+
+#username {
+    position: absolute;
+    right: 12.5%;
+    font-size: 25px;
+    top: 4px;
+}
+
+#promopaneel {
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    z-index: 1;
+}
+
+#promopaneel2 {
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    z-index: 1;
+}
+
+#verkeerd {
+    position: absolute;
+    top: 70%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
