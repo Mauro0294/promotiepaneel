@@ -11,12 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->id();
-            $table->string('username')->unique();
-            $table->string('password');
-            $table->unsignedBigInteger('rank_id');
-            $table->timestamps();
+        Schema::table('users', function (Blueprint $table) {
+            $table->integer('kluis')->default(0)->after('password');
         });
     }
 
@@ -25,6 +21,9 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('users');
+        Schema::table('users', function (Blueprint $table) {
+            // remove kluis column
+            $table->dropColumn('kluis');
+        });
     }
 };
