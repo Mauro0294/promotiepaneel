@@ -18,7 +18,7 @@ use App\Http\Controllers\AuthController;
 */
 
 Route::get('/', function () {
-    return redirect('users');
+    return redirect('login');
 })->name('home');
 
 // add auth middleware to all routes
