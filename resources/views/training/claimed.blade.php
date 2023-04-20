@@ -9,7 +9,7 @@
             <div class="flex justify-center items-center mt-8">
                 <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-                        <h1 class="text-3xl font-bold mb-4">Leden die training nodig hebben</h1>
+                        <h1 class="text-3xl font-bold mb-4">Geclaimde trainingen</h1>
                         @if (count($trainings) > 0)
                         <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
                             <table class="min-w-full divide-y divide-gray-200">
